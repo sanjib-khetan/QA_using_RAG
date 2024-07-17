@@ -4,7 +4,7 @@
 import openai
 from openai import OpenAI
 
-OPENAI_API_KEY = "<give your key>"
+
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 
