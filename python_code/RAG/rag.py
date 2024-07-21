@@ -2,8 +2,10 @@ from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.docstore.document import Document
 from langchain_community.vectorstores import Chroma
 from openai import OpenAI
-OPENAI_API_KEY = "<give your key>"
-client = OpenAI(api_key=OPENAI_API_KEY)
+
+#Uncomment these 2 lines while running this.
+#OPENAI_API_KEY = "<give your key>"
+#client = OpenAI(api_key=OPENAI_API_KEY)
 
 class RAG():
 
